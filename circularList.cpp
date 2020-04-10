@@ -294,7 +294,7 @@ public:
 inline void doublyLinkedList::citire(istream& in )
 {
     int date,n, i;
-    cout<<"Introduceti umarul de noduri: ";
+    cout<<"Introduceti numarul de noduri: ";
     in>>n;
 
     for(i = 0; i < n; i++)
