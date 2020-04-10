@@ -255,17 +255,14 @@ public:
     ///copy constructor
     doublyLinkedList (doublyLinkedList& lista)
     {
-        cout<<"pula";
         this->length = lista.length;
         this->head = lista.head;
         lista.head = (double_node*)lista.head->get_next();
-        cout<<"pula1";
         for (int i = 1; i < lista.length-1; i++)
             {
                 this->addTail(lista.head->get_info());
                 lista.head = (double_node*)lista.head->get_next();
             }
-        cout<<"pula2";
         this->tail = lista.tail;
     }
 
