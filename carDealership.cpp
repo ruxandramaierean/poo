@@ -422,7 +422,6 @@ void menu_output(){
     cout<<"3. Citirea si afisarea a n monovolume."<<endl;
     cout<<"4. Adaugarea unui monovolum in stoc. "<<endl;
     cout<<"5. Stergerea unui monovolum din stoc. "<<endl;
-    cout<<"6. Stergerea unei masini din stoc (folosind operatorul -=)."<<endl;
     cout<<"0. EXIT!"<<endl;
     cout<<endl;
 }
